@@ -186,6 +186,4 @@ public class AtencionCliente {
         System.out.println("Historia registrada exitosamente!");
         System.out.println("=============================================");
     }
-
-
 }
