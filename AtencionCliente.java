@@ -52,7 +52,6 @@ public class AtencionCliente {
 
                 System.exit(0);
             }
-       
         }
 
     }
@@ -66,7 +65,7 @@ public class AtencionCliente {
         for (int i = 0; i < indiceConsulta; i++) {
             if (documentosIdentidad[i].equals(dniABuscar)) {
                 System.out.println("=============================================");
-                System.out.println("Boleta  N°402" + (i + 1));
+                System.out.println("Boleta  N°400" + (i + 1));
                 System.out.println(" - Paciente: " + pacientes[i]);
                 System.out.println(" - Diagnostico: " + evaluaciones[i]);
                 System.out.println(" - Total a Pagar: " + montos[i]);
@@ -75,7 +74,7 @@ public class AtencionCliente {
             }
         }
     }
-//datos de atencion
+
     private static void datosDeAtencion() {
         System.out.println("=============================================");
         System.out.println("Ingrese datos de atención del paciente");
@@ -97,9 +96,9 @@ public class AtencionCliente {
 
         indiceConsulta++;
     }
-// iniciar tratamiento y agredando mas detalles
+
     private static boolean iniciaTratamiento() {
-        System.out.print("¿Inicia seccion de terapia? (SI/NO): ");
+        System.out.print("¿Inicia sesión de terapia? (SI/NO): ");
         String respuesta = sc.nextLine().toLowerCase();
         if (respuesta.equals("si")){
             System.out.print("Generando Boleta .... ");
@@ -123,7 +122,7 @@ public class AtencionCliente {
     }
 
     private static boolean preguntarSiAtenderOtroPaciente() {
-        System.out.print("¿Va a atender a otro paciente? (SI/NO): ");
+        System.out.print("¿Hay sesiones pendientes? (SI/NO): ");
         String respuesta = sc.nextLine().toLowerCase();
         while (!respuesta.equals("si") && !respuesta.equals("no")) {
             System.out.println("Respuesta inválida. Intente de nuevo.");
