@@ -75,7 +75,7 @@ public class AtencionCliente {
             }
         }
     }
-
+//datos de atencion
     private static void datosDeAtencion() {
         System.out.println("=============================================");
         System.out.println("Ingrese datos de atención del paciente");
