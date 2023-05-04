@@ -97,7 +97,7 @@ public class AtencionCliente {
 
         indiceConsulta++;
     }
-// iniciar tratamiento
+// iniciar tratamiento y agredando mas detalles
     private static boolean iniciaTratamiento() {
         System.out.print("¿Inicia seccion de terapia? (SI/NO): ");
         String respuesta = sc.nextLine().toLowerCase();
