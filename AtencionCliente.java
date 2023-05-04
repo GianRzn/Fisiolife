@@ -52,7 +52,7 @@ public class AtencionCliente {
 
                 System.exit(0);
             }
-           // seguirAtendiendo = preguntarSiAtenderOtroPaciente();
+       
         }
 
     }
